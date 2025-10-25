@@ -19,7 +19,7 @@ await connectDB()
 await connectCloudinary()
 
 // Allow multiple origins
-const allowedOrigins = ['http://localhost:5173', 'http://localhost:5000', process.env.FRONTEND_URL]
+const allowedOrigins = ['http://localhost:5173', 'http://localhost:5000', 'https://gronowstore.onrender.com', process.env.FRONTEND_URL]
 
 // Stripe webhook route removed
 
